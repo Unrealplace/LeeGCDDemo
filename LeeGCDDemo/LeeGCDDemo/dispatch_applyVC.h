@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Oliver. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "LeeBaseVC.h"
 
-@interface dispatch_applyVC : UIViewController
+@interface dispatch_applyVC : LeeBaseVC
 
 @end

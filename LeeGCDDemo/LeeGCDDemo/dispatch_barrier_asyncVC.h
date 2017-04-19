@@ -6,8 +6,7 @@
 //  Copyright © 2017年 Oliver. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface dispatch_barrier_asyncVC : UIViewController
+#import "LeeBaseVC.h"
+@interface dispatch_barrier_asyncVC : LeeBaseVC
 
 @end

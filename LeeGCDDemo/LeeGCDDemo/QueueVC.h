@@ -6,8 +6,7 @@
 //  Copyright © 2017年 Oliver. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface QueueVC : UIViewController
+#import "LeeBaseVC.h"
+@interface QueueVC : LeeBaseVC
 
 @end

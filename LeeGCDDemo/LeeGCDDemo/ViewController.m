@@ -24,7 +24,7 @@
     self.showTableView.delegate   = self;
     [self.view addSubview:self.showTableView];
     
-    _dataArr = @[@"QueueVC",@"dispatch_afterVC",@"dispatch_groupVC",@"dispatch_barrier_asyncVC",@"dispatch_applyVC",@"dispatch_semaphoreVC"];
+    _dataArr = @[@"QueueVC",@"dispatch_afterVC",@"dispatch_groupVC",@"dispatch_barrier_asyncVC",@"dispatch_applyVC",@"dispatch_semaphoreVC",@"DeadLockVC"];
     
    
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1118311EA642CD005A3DE9 /* DeadLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1118301EA642CD005A3DE9 /* DeadLockVC.m */; };
+		FA1118341EA642ED005A3DE9 /* LeeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1118331EA642ED005A3DE9 /* LeeBaseVC.m */; };
 		FA36519C1EA30D6700270CE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36519B1EA30D6700270CE3 /* main.m */; };
 		FA36519F1EA30D6700270CE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA36519E1EA30D6700270CE3 /* AppDelegate.m */; };
 		FA3651A21EA30D6700270CE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3651A11EA30D6700270CE3 /* ViewController.m */; };
@@ -23,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA11182F1EA642CD005A3DE9 /* DeadLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadLockVC.h; sourceTree = "<group>"; };
+		FA1118301EA642CD005A3DE9 /* DeadLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadLockVC.m; sourceTree = "<group>"; };
+		FA1118321EA642ED005A3DE9 /* LeeBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeBaseVC.h; sourceTree = "<group>"; };
+		FA1118331EA642ED005A3DE9 /* LeeBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeBaseVC.m; sourceTree = "<group>"; };
 		FA3651971EA30D6700270CE3 /* LeeGCDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeGCDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA36519B1EA30D6700270CE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA36519D1EA30D6700270CE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +101,10 @@
 				FA3651C11EA3842700270CE3 /* dispatch_applyVC.m */,
 				FA3651C31EA38E7E00270CE3 /* dispatch_semaphoreVC.h */,
 				FA3651C41EA38E7E00270CE3 /* dispatch_semaphoreVC.m */,
+				FA11182F1EA642CD005A3DE9 /* DeadLockVC.h */,
+				FA1118301EA642CD005A3DE9 /* DeadLockVC.m */,
+				FA1118321EA642ED005A3DE9 /* LeeBaseVC.h */,
+				FA1118331EA642ED005A3DE9 /* LeeBaseVC.m */,
 				FA3651BD1EA37FDC00270CE3 /* Cache.h */,
 				FA3651BE1EA37FDC00270CE3 /* Cache.m */,
 				FA3651A31EA30D6800270CE3 /* Main.storyboard */,
@@ -185,12 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1118341EA642ED005A3DE9 /* LeeBaseVC.m in Sources */,
 				FA3651A21EA30D6700270CE3 /* ViewController.m in Sources */,
 				FA3651C21EA3842700270CE3 /* dispatch_applyVC.m in Sources */,
 				FA36519F1EA30D6700270CE3 /* AppDelegate.m in Sources */,
 				FA3651C51EA38E7E00270CE3 /* dispatch_semaphoreVC.m in Sources */,
 				FA3651BC1EA3721100270CE3 /* dispatch_barrier_asyncVC.m in Sources */,
 				FA3651B91EA3485600270CE3 /* dispatch_groupVC.m in Sources */,
+				FA1118311EA642CD005A3DE9 /* DeadLockVC.m in Sources */,
 				FA3651B31EA33C0800270CE3 /* QueueVC.m in Sources */,
 				FA3651B61EA33FD100270CE3 /* dispatch_afterVC.m in Sources */,
 				FA3651BF1EA37FDC00270CE3 /* Cache.m in Sources */,
@@ -351,6 +363,7 @@
 				FA3651B01EA30D6800270CE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
